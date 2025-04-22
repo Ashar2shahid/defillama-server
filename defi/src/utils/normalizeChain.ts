@@ -2898,9 +2898,9 @@ export const chainCoingeckoIds = {
     symbol: "KUB",
     cmcId: "16093",
     categories: ["EVM"],
-    twitter: "bitkubchain",
-    url: "https://www.bitkubchain.com",
-    github: ["bitkub-chain"],
+    twitter: "KUBChain",
+    url: "https://www.kubchain.com/",
+    github: ["bitkub-chain", "bitkub-blockchain"],
     chainId: 96
   },
   "Ancient8": {
@@ -3479,8 +3479,8 @@ export const chainCoingeckoIds = {
     chainId: 33139
   },
   "Asset Chain": {
-    geckoId: null,
-    symbol: null,
+    geckoId: "xend-finance",
+    symbol: "RWA",
     cmcId: null,
     categories: ["EVM"],
     twitter: "xendfinance",
@@ -3512,7 +3512,7 @@ export const chainCoingeckoIds = {
     },
     url: "https://www.eclipse.xyz",
   },
-  "UNIT0": {
+  "Unit Zero": {
     geckoId: "unit0",
     symbol: "UNIT0",
     cmcId: "33785",
@@ -4041,13 +4041,13 @@ export const chainCoingeckoIds = {
     chainId: 177
   }, 
   "Mind Network": { // added for the bridge dashboard, because of the slug of the chain
-    geckoId: null,
-    symbol: null,
+    geckoId: "mind-network",
+    symbol: "FHE",
     cmcId: null,
     categories: ["EVM", "Rollup"],
     parent: {
-      chain: "Ethereum",
-      types: ["L2"]
+      chain: "arbitrum",
+      types: ["L3"]
     },
     chainId: 228,
     twitter: "mindnetwork_xyz",
@@ -4106,6 +4106,28 @@ export const chainCoingeckoIds = {
     twitter: "perenniallabs",
     url: "https://perennial.finance/",
     chainId: 1424
+  },
+  "Peaq": {
+    geckoId: "peaq-2",
+    symbol: "PEAQ",
+    cmcId: "14588",
+    categories: ["EVM"],
+    twitter: "peaq",
+    url: "https://www.peaq.xyz/",
+    chainId: 3338
+  },
+  "Moonchain": {
+    geckoId: "mxc",
+    symbol: "MXC",
+    cmcId: "3628",
+    categories: ["EVM", "Rollup"],
+    parent: {
+      chain: "Ethereum",
+      types: ["L2"],
+    },
+    twitter: "Moonchain_com",
+    url: "https://www.moonchain.com/",
+    chainId: 18686
   }, 
 } as unknown as ChainCoinGekcoIds
 
@@ -4289,6 +4311,7 @@ const chainLabelMap = {
   "fhe": "Mind Network",
   "ao": "AO",
   "plume_mainnet": "Plume Mainnet",
+  "mxczkevm": "Moonchain",
 } as { [key: string]: string }
 
 // When we decide to change the display name of a chain, we add the mapping for the new name here
@@ -4332,6 +4355,7 @@ const newChainLabelMap = {
   "lightlink_phoenix": "LightLink",
   "move": "Movement", 
   "wax": "Wax",
+  "unit0": "Unit Zero",
 } as { [key: string]: string }
 
 const allChainLabelMap = {

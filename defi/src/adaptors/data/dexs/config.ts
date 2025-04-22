@@ -275,7 +275,6 @@ export default {
         }
     },
     "baryon": {
-        "enabled": false,
         "id": "1950"
     },
     "cherryswap": {
@@ -2944,5 +2943,29 @@ export default {
     },
     "kyo-fi-v3": {
         id: "5622"
+    },
+    "kongswap": {
+        id: "5528"
+    },
+    "elys-dex": {
+        id: "5544"
+    },
+    "razordex": {
+        id: "6054"
+    },
+    "tonpump": {
+        id: "5468"
+    },
+    "flowx-v3": {
+        id: "4582"
+    },
+    "zora-sofi": {
+        id: "6069" 
+    },
+    "launchlab": {
+        id: "6074" 
+    },
+    "beezie": {
+        id: "6075" 
     },
 } as AdaptorsConfig

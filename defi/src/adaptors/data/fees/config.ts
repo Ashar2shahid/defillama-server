@@ -3023,5 +3023,109 @@ export default {
     },
     "felix": {
         id: "6015"
-    }
+    },
+    "zo": {
+        id: "6018"
+    },
+    "liquidloans-io": {
+        id: "4043"
+    },
+    "powercity-earn-protocols": {
+        id: "4376"
+    },
+    "powercity-flex-protocols": {
+        id: "4881"
+    },
+    "sable-finance": {
+        id: "3355"
+    },
+    "teddy-cash": {
+        id: "535"
+    },
+    "threshold-thusd": {
+        id: "4812"
+    },
+    "jellyverse": {
+        id: "4772",
+        protocolsData: {
+            "v2": {
+                id: "4772"
+            }
+        }
+    },
+    "usual": {
+        id: "4882"
+    },
+    "ondo": {
+        id: "2542"
+    },
+    "traderjoe-lb-v2-2": {
+        id: "4794"
+    },
+    "kongswap": {
+        id: "5528"
+    },
+    "alpacafinance-gmx": {
+        id: "2658"
+    },
+    "phame-protocol": {
+        id: "3569"
+    },
+    "sobax-io": {
+        id: "4143"
+    },
+    "tsunami-fi": {
+        id: "2979"
+    },
+    "kinetix-v1": {
+        id: "3465"
+    },
+    "axiom": {
+        id: "6049"
+    },
+    "mellow-lrt": {
+        id: "4756"
+    },
+    "liquid-ron": {
+        id: "6020"
+    },
+    "razordex": {
+        id: "6054"
+    },
+    "yei-finance": {
+        id: "4721"
+    },
+    "chedda-finance": {
+        id: "5912"
+    },
+    "arbitrum-timeboost": {
+        id: "6065"
+    },
+    "kairos": {
+        id: "6066"
+    },
+    "ostium": {
+        id: "4932"
+    },
+    "lista-lending": {
+        id: "6056"
+    },
+    "zora-chain": {
+        id: "7777777" // chainId
+    },
+    "zora-sofi": {
+        id: "6069" 
+    },
+    "yearn-ether": {
+        id: "3973" 
+    },
+    "yearn-finance": {
+        id: "113" 
+    },
+    "compound-v3": {
+        id: "2088" 
+    },
+    "amnis-finance": {
+        id: "3667" 
+    },
 } as AdaptorsConfig
